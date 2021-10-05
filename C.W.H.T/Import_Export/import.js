@@ -1,1 +1,3 @@
-console.log(3)
+const bioData = require("./export");
+
+console.log(bioData)
