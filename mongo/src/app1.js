@@ -20,14 +20,14 @@ const Produce = new mongoose.model("Product",Prod)
 const createDoc = async ()=>{
     try{
         const mal = new Produce({
-            name:"Ledy",
+            name:"dy",
             age:35,
-            type:"bbw"
+            type:"bb"
         })
         const mal2 = new Produce({
-            name:"Ledy",
+            name:"Le",
             age:30,
-            type:"babe"
+            type:"b"
         })
         const result = await Produce.insertMany([mal,mal2])
 
